@@ -1,8 +1,23 @@
 aid: survios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/survios.png
 name: Survios
-description: 'Survios is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Survios is a virtual reality game studio that develops and publishes immersive VR titles
+  across major platforms including PlayStation VR, Steam, Meta Quest, Xbox, and Nintendo Switch. Known
+  for award-winning games such as Raw Data, Creed: Rise to Glory, The Walking Dead: Onslaught, Sprint
+  Vector, Electronauts, and Alien: Rogue Incursion, the studio describes itself as one of the world''s
+  leading VR games studios. Backed by Lux Capital, Survios operates as a consumer games company; as of
+  this enrichment pass it publishes no public developer API, SDK, or developer portal surface.'
 url: https://raw.githubusercontent.com/api-evangelist/survios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Gaming
+- Virtual Reality
+- Games
+- Entertainment
+- VR
+- Game Studio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/survios-domain-security.yml
 - type: Website
   url: https://survios.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
